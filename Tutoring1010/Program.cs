@@ -21,6 +21,7 @@ namespace Tutoring1010
                     for (seconds = 0; seconds < 60; seconds++)
                     {
                         Console.WriteLine(hours + ":" + minutes + ":" + seconds);
+                        System.Threading.Thread.Sleep(1000);
                     }
                 }
             }
